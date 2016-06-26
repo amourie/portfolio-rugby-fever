@@ -1,0 +1,310 @@
+﻿html,
+body {
+    background-color: #FFF;
+    padding: 0;
+    margin: 0;
+    font: normal 13px/150% Arial, Helvetica, sans-serif;
+}
+.main {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+/*** HEADER *****/
+
+.jumbotron {
+    background-color: #1396C2;
+    margin-top: 35px;
+}
+.jumbotron h1,
+.jumbotron h3,
+.jumbotron p,
+.jumbotron a {
+    color: #FFF;
+}
+.jumbotron a {
+    float: none;
+    margin: 20px 0px;
+}
+.header {
+    position: relative;
+    background-repeat: no-repeat;
+    border-bottom: solid 10px #f7983c;
+    background-size: cover;
+    margin: 0 2vw 0 0;
+    height: 15vw;
+    position: relative;
+    top: 3px;
+    width: 100vw;
+}
+.header h1 {
+    color: #f7983c;
+    font-size: 8em;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 2px 2px #fff;
+    text-transform: uppercase;
+    line-height: 15vw;
+}
+.bg {
+    background-image: url('http://cf.c.ooyala.com/E3Zm5odjqAmn9ACJe2yzIQcvc65lTRgz/promo262114629');
+    background-repeat: no-repeat;
+}
+/*** EQUALIZE COLUMNS ***/
+
+.row.is-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+/* ICONS */
+
+.fa {
+    font-size: 6em;
+    color: #fff;
+}
+/* GENERAL TEXT STYLES */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.jumbotron p {
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+    font-size: 1.9em;
+    margin-bottom: 250x;
+}
+h2 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+/**** ITEM CONTAINER ***/
+
+.item-container {
+    background-color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    min-height:450px;
+}
+.item-container img {
+    margin-bottom: 10px;
+    width: 100%;
+}
+.item-container .date {
+    font-size: 0.75em;
+    font-weight: bold;
+}
+.item-container p {
+    font-size: 0.95em;
+    color: #797979;
+    text-align: justify;
+}
+.item-container a h2 {
+    color: #004787;
+}
+.item-container a:hover {
+    text-decoration: none;
+}
+.item-container a h2:hover,
+.item-container a h2:hover {
+    color: #7b9227;
+    text-decoration: none;
+}
+/*** BUTTON STYLES ***/
+
+.btn {
+    padding: 15px;
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin: 15px;
+    margin-right: 0px;
+    text-transform: uppercase;
+}
+.btn a:hover {
+    color: #FFF;
+}
+.btn:hover a {
+    color: #FFF;
+}
+.btn-orange {
+    background: #f7983c;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, #f7983c 0%, #e08124 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7983c), color-stop(100%, #e08124));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, #f7983c 0%, #e08124 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, #f7983c 0%, #e08124 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, #f7983c 0%, #e08124 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, #f7983c 0%, #e08124 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f7983c', endColorstr='#e08124', GradientType=0);
+    /* IE6-9 */
+}
+.btn-default:hover {
+    color: #FFF;
+    background: #abdc19;
+    /* Old browsers */
+    
+    background: #abdc19;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, #abdc19 0%, #7b9227 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #abdc19), color-stop(100%, #7b9227));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, #abdc19 0%, #7b9227 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, #abdc19 0%, #7b9227 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, #abdc19 0%, #7b9227 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, #abdc19 0%, #7b9227 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#abdc19', endColorstr='#7b9227', GradientType=0);
+    /* IE6-9 */
+}
+/**** LABEL TEXT ****/
+
+.labelText {
+    color: #fff !important;
+    background-color: #6e6f6c;
+    text-align: center;
+    width: 120px;
+}
+.labelText a {
+    color: #FFF;
+    display: block;
+    font-size: 0.9em;
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.labelRS a:hover {
+    text-decoration: none;
+    background-color: #a00b10;
+}
+
+/*** FOOTER ***/
+
+footer {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #FFF;
+    position: relative;
+    margin-bottom: -30px !important;
+    line-height: 130px;
+    text-align: center;
+}
+footer .footerBg {
+    background-image: url('../img/cricketfooter.png');
+    background-repeat: no-repeat;
+}
+/*** SOCIAL BUTTONS ***/
+
+.social-block {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 60px;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+}
+.social-block a {
+    color: #FFF;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.social-block span {
+    font-size: 1.2em;
+    display: inline-block;
+    height: 60px;
+}
+.social-block i {
+    margin-right: 15px;
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    top: 10px;
+}
+.social-block:hover {
+    opacity: 0.95;
+}
+.social-block a:hover,
+.social-block a:active {
+    text-decoration: none;
+}
+.social-block-fb {
+    background-color: #364c8e;
+}
+.social-block-gp {
+    background-color: #ff4000;
+}
+.social-block-tw {
+    background-color: #00a3d9;
+}
+/**** GLOBAL MARGINS & PADDING ****/
+
+.addMargins {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+/**** MEDIA QUERIES ***/
+
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 10px 15px;
+    }
+    .header {
+        height: 15vh;
+    }
+    .header h1 {
+        padding: 20px 0px;
+        font-size: 3.4em;
+        display: block;
+        vertical-align: middle;
+        line-height: 100%;
+    }
+}
+@media (max-width: 420px) {
+    .header h1 {
+        font-size: 3em;
+    }
+}
