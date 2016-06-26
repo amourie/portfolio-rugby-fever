@@ -52,7 +52,12 @@ body {
     background-repeat: no-repeat;
 }
 /*** EQUALIZE COLUMNS ***/
-
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
 .row.is-flex {
     display: flex;
     flex-wrap: wrap;
@@ -95,7 +100,8 @@ h2 {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 10px;
-    min-height:450px;
+    min-height:490px;
+    overflow: hidden;
 }
 .item-container img {
     margin-bottom: 10px;
